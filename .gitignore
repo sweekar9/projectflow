@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# builds
+server/dist/
+client/.next/
+client/out/
+
+# env
+.env
+**/.env
+!**/.env.example
+
+# uploads (runtime user files)
+server/uploads/
+!server/uploads/.gitkeep
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.tsbuildinfo
+next-env.d.ts
